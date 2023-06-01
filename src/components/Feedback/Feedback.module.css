@@ -1,0 +1,78 @@
+.title {
+  color: rgb(221, 255, 0);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: rgb(9, 237, 9);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(9, 203, 9, 0.938);
+}
+
+.neutral {
+  width: 100px;
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: rgb(230, 176, 0);
+  cursor: pointer;
+}
+.neutral:hover {
+  background-color: rgb(201, 154, 1);
+}
+
+.bad {
+  width: 100px;
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: rgb(251, 6, 6);
+  cursor: pointer;
+}
+.bad:hover {
+  background-color: rgb(219, 4, 4);
+}
+.statistic {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.total {
+  margin-top: 20px;
+  box-shadow: rgba(226, 0, 0, 0.43) 0px 2px 8px 0px;
+}
+
+.span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.positiveFeed {
+  font-size: 22px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 226, 0.43) 0px 2px 8px 0px;
+  background-color: greenyellow;
+}
+
+.notification {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
