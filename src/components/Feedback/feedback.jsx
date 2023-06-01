@@ -18,6 +18,7 @@ class Feedback extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
+    console.log(good);
 
     return (
       <>
